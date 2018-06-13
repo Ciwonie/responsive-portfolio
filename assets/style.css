@@ -23,7 +23,7 @@ header {
     background-color: #4aaaa5; 
     width: 25%;
     height: 50px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     margin: 0 auto;
     float: left;
@@ -32,6 +32,16 @@ header {
     padding-bottom: 0px;
     border-radius: 2px;
 }
+
+/* Responsive Nav Update 13 Jun 18 */
+.head-space {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+/* End of Nav Update */
 
 nav li {
     display: inline-block;
@@ -254,3 +264,25 @@ img {
     border-radius: 4px;
 }
 
+/* media queries */
+
+@media screen and (max-width: 980px){
+    header {
+        margin-left: 10px;
+        margin-right: 10px;
+}
+@media screen and (max-width: 768px){
+    
+}
+ @media screen and (max-width: 640px){
+
+    #index-pic {
+
+    }
+
+    #index-bio {
+        float: left;
+    }
+
+ }
+}
